@@ -8,17 +8,17 @@ O software foi desenvolvido como trabalho de conclusão da disciplina de LP do c
 
 ## 📝 | Requisitos
 
-O sistema deveria ter cumprir as seguintes funcionalidades:
+O sistema teria de cumprir as seguintes funcionalidades:
 
-- [x] CRUD de Turmas e Tims
+- [x] CRUD de turmas e times
 - [x] Relacionar turmas e times (seguindo requisitos mais específicos)
-- [x] Utilizar alocação dinâmica para Strings e Vetores
+- [x] Utilizar alocação dinâmica para criar Strings e Vetores
 - [x] Salvar os dados em arquivos texto
 
 
 ## 🛠 | Tecnologias
 
-O projeto foi programado em **C** por ser a linguagem lecionada na disciplina. Foram utilizadas apenas biblioetcas padrões da linguagem, sendo elas **<stdio.h>, <stdlib.h>, <string.h>** e **<ctype.h>**. O programa foi desenvolvido no **Visual Studio Code**.
+O projeto foi programado em **C**, por ser a linguagem lecionada na disciplina. Foram utilizadas apenas biblioetcas padrões da linguagem, sendo elas **<stdio.h>, <stdlib.h>, <string.h>** e **<ctype.h>**. O programa foi desenvolvido no **Visual Studio Code**.
 
 ## 🕹 | Utilização
 
@@ -43,10 +43,10 @@ Por se tratar de um software programado em C, é necessário se atentar a alguns
 Strings e Vetores, é necessário que você encerre o código corretamente para que as alocações de memória sejam liberadas, caso contrário isso pode prejudicar a execução do programa e a memória.
 
 2. 🚫 Não edite os arquivos de salvamento do sistema - Isso pode prejudicar o funcionamento do programa, uma vez que o mesmo utiliza uma sintaxe específica de texto para marcar as
-informações
+informações.
 
-3. 🚫 Não digite dados de tipo errado nos campos de inserimento (por exemplo, digitar um caractere onde era pedido um inteiro) - Por se tratar de uma linguagem limitada, isso pode
-quebrar o programa e encerrá-lo indevidamente
+3. 🚫 Não digite dados de tipo errado nos campos de digitação (por exemplo, digitar um caractere onde era pedido um inteiro) - Por se tratar de uma linguagem limitada, isso pode
+quebrar o programa e encerrá-lo indevidamente.
 
 4. 🚫 Não utilize a versão errada do programa (Linux/Windows) - Alguns comandos utilizados dentro do código windows podem não funcionar no Linux e vice-versa, portanto para evitar
 bugs utilize a versão correta do programa.
